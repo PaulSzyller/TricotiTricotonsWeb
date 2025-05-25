@@ -12,7 +12,7 @@ header {
 }
 
 .main-logo {
-    width: 300px; /* Increase logo size */
+    width: 300px;
     max-width: 90%;
     height: auto;
 }
@@ -23,6 +23,16 @@ header {
     padding: 20px;
     font-size: 1.2em;
     line-height: 1.6;
+}
+
+.intro-card {
+    background-color: #fffaf6;
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    margin: 30px auto;
+    max-width: 600px;
+    text-align: left;
 }
 
 .etsy-button {
@@ -37,6 +47,7 @@ header {
     font-size: 1.1em;
     transition: background-color 0.3s ease;
     margin-top: 30px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
 .etsy-button:hover {
@@ -46,7 +57,7 @@ header {
 .email-button {
     display: inline-flex;
     align-items: center;
-    background-color: #3ab6a6; /* Soft teal */
+    background-color: #3ab6a6;
     color: white;
     padding: 12px 24px;
     border-radius: 6px;
@@ -55,6 +66,7 @@ header {
     font-size: 1.1em;
     transition: background-color 0.3s ease;
     margin-top: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
 .email-button:hover {
