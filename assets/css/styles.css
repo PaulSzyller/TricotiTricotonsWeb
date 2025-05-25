@@ -1,5 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    padding: 40px 20px 20px;
+}
+
+.main-logo {
+    width: 300px; /* Increase logo size */
+    max-width: 90%;
+    height: auto;
+}
+
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
 .etsy-button {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     background-color: #f56400;
     color: white;
     padding: 12px 24px;
@@ -13,4 +41,24 @@
 
 .etsy-button:hover {
     background-color: #d65300;
+}
+
+.contact {
+    margin-top: 40px;
+    font-size: 1em;
+}
+
+a {
+    color: #c08457;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 60px;
+    font-size: 0.9em;
+    color: #888;
 }
